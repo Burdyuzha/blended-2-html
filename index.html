@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion</title>
-    <link rel="stylesheet"
-    href="href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -18,9 +21,10 @@
   <body>
     <!-- header -->
     <header class="header">
-      <div class="container">
-        <a href="./index.html">
+      <div class="container header-container">
+        <a class="header-logo logo" href="./index.html">
           <img
+            class="header-img"
             src="./images/logo.svg"
             alt=" main logo"
             width="40"
@@ -29,18 +33,30 @@
           Product
         </a>
 
-        <nav>
-          <ul>
-            <li><a href="./index.html">Product</a></li>
-            <li><a href="./pricing.html">Pricing</a></li>
-            <li><a href="./customers.html">Customers</a></li>
-            <li><a href="">Resources</a></li>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-link current" href="./index.html">Product</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="./customers.html">Customers</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-link" href="">Resources</a>
+            </li>
           </ul>
         </nav>
 
-        <ul>
-          <li><button type="button">Sign In</button></li>
-          <li><button type="button">Sign Up</button></li>
+        <ul class="header-btn-list">
+          <li class="header-btn-item">
+            <button class="header-btn" type="button">Sign In</button>
+          </li>
+          <li class="header-btn-item">
+            <button class="header-btn" type="button">Sign Up</button>
+          </li>
         </ul>
       </div>
     </header>
@@ -48,176 +64,230 @@
     <main>
       <!-- work -->
       <section class="hero">
-        <div class="container">
-          <h1>Work at the speed of thought</h1>
-          <p>
-            Tools, tutorials, design and innovation experts, all in one place!
-            The most intuitive way to imagine your next user experience.
-          </p>
-          <ul>
-            <li><button type="button">Get started</button></li>
-            <li><button type="button">Watch the Video</button></li>
-          </ul>
-          <img src="./images/hero-img.svg" alt="hero-images" />
+        <div class="container hero-container">
+          <div class="hero-block">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-list">
+              <li class="hero-list-item">
+                <button class="hero-btn" type="button">Get started</button>
+              </li>
+              <li class="hero-list-item">
+                <button class="hero-btn" type="button">Watch the Video</button>
+              </li>
+            </ul>
+          </div>
+          <img class="hero-img" src="./images/hero-img.svg" alt="hero-images" />
         </div>
       </section>
 
       <!-- product -->
       <section class="product">
         <div class="container">
-          <h2>Product was Built Specifically for You</h2>
-          <ul>
-            <li>
+          <h2 class="product-title">Product was Built Specifically for You</h2>
+          <ul class="product-list">
+            <li class="product-list-item">
               <img
+                class="product-img"
                 src="./images/icon-1.svg"
                 alt="first click test"
                 width="54"
                 height="54"
               />
-              <h3>First click tests</h3>
+              <div class="product-text-block">
+                <h3 class="product-subtitle">First click tests</h3>
 
-              <p>While most people enjoy casino gambling,</p>
+                <p class="product-text">
+                  While most people enjoy casino gambling,
+                </p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
+                class="product-img"
                 src="./images/icon-2.svg"
                 alt="design surveys"
                 width="54"
                 height="54"
               />
-              <h3>Design surveys</h3>
+              <div class="product-text-block">
+                <h3 class="product-subtitle">Design surveys</h3>
 
-              <p>Sports betting, lottery and bingo playing for the fun</p>
+                <p class="product-text">
+                  Sports betting, lottery and bingo playing for the fun
+                </p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
+                class="product-img"
                 src="./images/icon-3.svg"
                 alt="preference test"
                 width="54"
                 height="54"
               />
-              <h3>Preference tests</h3>
+              <div class="product-text-block">
+                <h3 class="product-subtitle">Preference tests</h3>
 
-              <p>The Myspace page defines the individual.</p>
+                <p class="product-text">
+                  The Myspace page defines the individual.
+                </p>
+              </div>
             </li>
-            <li>
+            <li class="product-list-item">
               <img
+                class="product-img"
                 src="./images/icon-4.svg"
                 alt="five second test"
                 width="54"
                 height="54"
               />
-              <h3>Five second tests</h3>
+              <div class="product-text-block">
+                <h3 class="product-subtitle">Five second tests</h3>
 
-              <p>Personal choices and the overall personality of the person.</p>
+                <p class="product-text">
+                  Personal choices and the overall personality of the person.
+                </p>
+              </div>
             </li>
           </ul>
-          <button type="button">sigh up now</button>
+          <button class="product-btn" type="button">sigh up now</button>
         </div>
       </section>
       <!-- Management -->
       <section class="servis">
         <div class="container">
-          <h2>Servises</h2>
-          <ul>
-            <li>
-              <h3><span>Effortless Validation for</span> Management</h3>
-              <p>
+          <h2 class="visually-hidden">Servises</h2>
+          <ul class="servis-top-list">
+            <li class="servis-top-list-item">
+              <h3 class="servis-top-list-title">
+                <span class="servis-top-title-span"
+                  >Effortless Validation for</span
+                >
+                Management
+              </h3>
+              <p class="servis-top-text">
                 The Myspace page defines the individual, his or her
                 characteristics, traits, personal choices and the overall
                 personality of the person.
               </p>
-              <ul>
-                <li>
-                  <h4>Accessory makers</h4>
-                  <p>
+              <ul class="servis-top-sublist">
+                <li class="servis-top-sublist-item">
+                  <h4 class="servis-top-sublist-title">Accessory makers</h4>
+                  <p class="servis-top-sublist-text">
                     While most people enjoy casino gambling, sports betting,
                     lottery and bingo playing for the fun
                   </p>
                 </li>
                 <li>
-                  <h4>Alterationists</h4>
-                  <p>
+                  <h4 class="servis-top-sublist-title">Alterationists</h4>
+                  <p class="servis-top-sublist-text">
                     If you are looking for a new way to promote your business
                     that won’t cost you more money,
                   </p>
                 </li>
               </ul>
-              <img
-                src="./images/management-img.svg"
-                alt="documents"
-                width="540"
-                height="500"
-              />
-            </li>
-            <li>
-              <h3><span>Easier decision making for</span>Customer Support</h3>
-              <p>
+              </li>
+              <div class="servis-top-img">
+                <img
+                  src="./images/management-img.svg"
+                  alt="documents"
+                  width="540"
+                  height="500"
+                />
+          </ul>
+          
+          <ul class="servis-mid-list">
+            <li class="servis-mid-list-item">
+              <h3 class="servis-mid-title">
+                <span class="servis-mid-title-span"
+                  >Easier decision making for</span
+                >Customer Support
+              </h3>
+              <p class="servis-mid-text">
                 The Myspace page defines the individual, his or her
                 characteristics, traits, personal choices and the overall
                 personality of the person.
               </p>
-              <ul>
-                <li>
+              <ul class="servis-mid-sublist">
+                <li class="servis-mid-sublist-item">
                   <img
+                    class="servis-mid-sublist-icon"
                     src="./images/yellow-icon.svg"
                     alt="ok yellow"
                     width="35"
                     height="35"
                   />
-                  Never worry about overpaying for your energy again.
+                  <p class="servis-mid-sublist-text">
+                    Never worry about overpaying for your energy again.
+                  </p>
                 </li>
-                <li>
+                <li class="servis-mid-sublist-item">
                   <img
+                    class="servis-mid-sublist-icon"
                     src="./images/red-icon.svg"
                     alt="ok red"
                     width="35"
                     height="35"
                   />
-                  We will only switch you to energy companies that we trust and
-                  will treat you right
+                  <p class="servis-mid-sublist-text">
+                    We will only switch you to energy companies that we trust
+                    and will treat you right
+                  </p>
                 </li>
-                <li>
+                <li class="servis-mid-sublist-item">
                   <img
                     src="./images/blue-icon.svg"
                     alt="ok blue"
                     width="35"
                     height="35"
                   />
-                  We track the markets daily and know where the savings are.
+                  <p class="servis-mid-sublist-text">
+                    We track the markets daily and know where the savings are.
+                  </p>
                 </li>
               </ul>
               <img
+                class="servis-mid-sublist-icon"
                 src="./images/support-img.svg"
                 alt="laptop"
                 width="540"
                 height="500"
               />
             </li>
-            <li>
-              <h3><span>Optimisation for</span> Collaborative</h3>
-              <p>
+          </ul>
+          <ul class="servis-bottom-list">
+            <li class="servis-bottom-list-item">
+              <h3 class="servis-bottom-list-title">
+                <span class="servis-bottom-list-span">Optimisation for</span>
+                Collaborative
+              </h3>
+              <p class="servis-bottom-list-text">
                 Few would argue that, despite the advancements of feminism over
                 the past three decades, women still face a double standard when
                 it comes to their behavior.
               </p>
-              <ul>
-                <li>
-                  <h4>Accessory makers</h4>
-                  <p>
+              <ul class="servis-bottom-sublist">
+                <li class="servis-bottom-sublist-item">
+                  <h4 class="servis-bottom-sublist-title">Accessory makers</h4>
+                  <p class="servis-bottom-sublist-text">
                     While most people enjoy casino gambling, sports betting,
                     lottery and bingo playing for the fun
                   </p>
                 </li>
-                <li>
-                  <h4>Alterationists</h4>
-                  <p>
+                <li class="servis-bottom-sublist-item">
+                  <h4 class="servis-bottom-sublist-title">Alterationists</h4>
+                  <p class="servis-bottom-sublist-text">
                     If you are looking for a new way to promote your business
                     that won’t cost you more money,
                   </p>
                 </li>
               </ul>
               <img
+                class="servis-bottom-img"
                 src="./images/collaboration-img.svg"
                 alt="folder with files"
                 width="540"
