@@ -111,6 +111,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 35px;
 }
 
 .hero-block{
@@ -310,7 +311,6 @@ body{
     margin-bottom: 25px;
 }
 
-.
 .servis-mid-icon {
     margin-right: 84px;
 }
