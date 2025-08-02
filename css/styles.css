@@ -275,6 +275,7 @@ body{
 .servis-mid-list {
     display: flex;
     padding-top: 100px;
+    gap:84px
 }
 
 .servis-mid-list-item {
@@ -311,9 +312,6 @@ body{
     margin-bottom: 25px;
 }
 
-.servis-mid-icon {
-    margin-right: 84px;
-}
 
 .servis-mid-sublist-text {
     line-height: 1.62;
