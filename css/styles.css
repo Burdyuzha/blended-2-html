@@ -37,8 +37,6 @@ body{
 
 /* header */
 
-.header {
-}
 
 .header-container{
     display: flex;
@@ -55,8 +53,6 @@ body{
     gap: 16px;
     margin-right: 237px;
 }
-
-.logo {}
 
 .header-nav-list {
     display: flex;
@@ -79,8 +75,6 @@ body{
     margin-left: auto;
     gap: 21px;
 }
-
-.header-btn-item {}
 
 .header-btn {
     border: 1px solid #bcd0e5;
@@ -247,11 +241,6 @@ body{
     margin-bottom: 30px;
 }
 
-.servis-top-sublist {
-}
-
-.servis-top-sublist-item {}
-
 .servis-top-sublist-title {
     font-weight: 600;
     line-height: 1.62;
@@ -357,10 +346,6 @@ body{
     margin-bottom: 30px;
 }
 
-.servis-bottom-sublist {}
-
-.servis-bottom-sublist-item {}
-
 .servis-bottom-sublist-title {
     font-weight: 600;
     line-height: 1.62;
@@ -375,11 +360,7 @@ body{
     margin-bottom: 0;
 }
 
-.servis-bottom-img {}
-
 /* footer */
-
-.container {}
 
 .footer-logo{
     font-weight: 700;
@@ -392,15 +373,11 @@ body{
     margin-right: 237px;
 }
 
-.footer-container {}
-
 .footer-form {
     max-width: 325px;
     position: relative;
 }
 
-.footer-form-label {
-}
 .footer-form-text{
     max-width: 280px;
     font-weight: 500;
